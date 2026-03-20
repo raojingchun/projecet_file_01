@@ -1,0 +1,15 @@
+pip install 库名 ---安装
+pip uninstall 库名 ---卸载
+pip install --upgrade 库名 ---更新
+pip show 库名 ---查看包信息
+pip list 列出已安装的库
+
+# 提升安装速度
+指定源安装：pip install 库名 -i 源
+
+阿里云：https://mirrors.aliyun.com/pypi/simple/
+豆瓣：https://pypi.douban.com/simple/
+清华大学：https://pypi.tuna.tsinghua.edu.cn/simple
+中国科学技术大学：https://pypi.mirrors.ustc.edu.cn/simple
+
+通过pycharm进行安装

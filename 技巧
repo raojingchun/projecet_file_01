@@ -1,0 +1,8 @@
+# 光标移动到开始的位置shift + 鼠标点击结束的位置
+def func1():
+    print("func1内部:", locals())  # 查看当前局部命名空间
+    func2()
+
+print("调用func1前:", globals())    # 查看全局命名空间
+func1()
+print("调用func1后:", globals())
